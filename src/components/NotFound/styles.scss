@@ -1,0 +1,11 @@
+.not-found {
+  height: 30vh;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+
+  > h2 {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+}

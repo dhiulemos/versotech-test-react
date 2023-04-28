@@ -1,0 +1,30 @@
+#header {
+  background-color: #fff;
+  box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.02);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+
+  > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  img {
+    max-width: 12rem;
+    object-fit: contain;
+    margin-bottom: 2rem;
+  }
+
+  @media (min-width: 768px) {
+    > .container {
+      flex-direction: row;
+    }
+
+    img {
+      margin-bottom: 0;
+    }
+  }
+}

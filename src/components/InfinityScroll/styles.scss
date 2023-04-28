@@ -1,0 +1,20 @@
+.infinity-scroll {
+  display: flex;
+  justify-content: center;
+
+  .btn-load {
+    background-color: #ce2211;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 1.4rem 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+
+    &:hover {
+      background-color: #0c3348;
+      border-radius: 3rem 1rem 3rem 1rem;
+    }
+  }
+}
